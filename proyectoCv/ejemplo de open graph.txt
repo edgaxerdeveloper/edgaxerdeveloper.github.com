@@ -1,0 +1,7 @@
+<!--
+	<meta name="og:title" content="CV de Edgar Zarraga">
+	<meta name="og:description" content="Edgar zarraga es un vendedor con mas de 3 años de experiencia trabajando en callcenter">
+	<meta name="og:url" content="http://Edgar.me">
+	<meta name="og:site_name" content="Proyectos personales de Edgar">
+	<meta name="og:type" content="website">
+	<meta name="og:image" content="<url-imagen>"> informacion opcional para cuando se necesite un open graph-->
