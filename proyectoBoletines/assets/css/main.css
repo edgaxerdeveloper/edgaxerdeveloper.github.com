@@ -1,0 +1,130 @@
+@font-face{
+	font-family: nombreDeMiFuente;
+	src: url(archivoFuente/fuente.woff);
+}
+html{
+	font-family: 'Nunito', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #d500f9;
+}
+a:hover{
+	opacity: 0.8;
+}
+a:active{
+	background: gray;
+}
+img{
+	max-width: 100%;
+}
+.table{
+	width: 100%;
+	border-spacing: 0;
+}
+.table td, .table th{
+	padding: 1em;
+	text-align: left;
+}
+.table tr:nth-child(even){
+	background-color: gray;
+}
+.fa-star{
+	color: yellow;
+}
+.title{
+	text-transform: uppercase;
+	text-align: center;
+}
+.title-item{
+	/*border-bottom-style: solid;
+	border-width: 2px;
+	border-color: black;*/
+	font-size: 2em;
+	border-bottom: solid 2px black;
+	padding-bottom: 1em;
+}
+.main-image{
+	float: left;
+	margin-right: 1em;
+	height: 250px;
+}
+.address{
+	font-weight: bold;
+	color: gray;
+	font-size: 1.2em;
+	margin-top: 2em;
+	display: inline-block;
+}
+.position{
+	background-color: black;
+	color: white;
+	padding: 0.5em;
+	border-radius: 4px;
+	margin-right: 0.5em;
+}
+.paragraph{
+	line-height: 1.8em;
+	font-weight: 200;
+}
+.container {
+	background: #bdc3c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content{
+	max-width: 960px;
+	height: 80vh;
+	width: 100%;
+	background-color: #fff;
+	border-radius: 4px;
+	position: relative;
+	padding: 1.8em;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.actions{
+	position: absolute;
+	top: 1em;
+	right: 1em;
+}
+.close{
+	height: 40px;
+	width: 40px;
+	color: white;
+	border-radius: 50%;
+	background-color: gray;
+	display: inline-block;
+	box-shadow: 0 3px 6px rgba(0,0,0,0,16), 0 3px 6px rgba(0, 0, 0, 23);
+	font-weight: 300;
+	cursor: pointer;
+	display: flex;/*parte del flex box para centrar la x en el circulo*/
+	align-items: center;
+	justify-content: center;
+}
+@media (max-width: 600px){
+	.content{
+		padding: 1em;
+	}
+	td{
+		display: block;
+		width: 100%;
+	}
+	td:nth-of-type(1){
+		font-size: 1.5em;
+		font-weight: bold;
+		color: gray;
+	}
+	th{
+		display: none;
+	}
+}
+@media (min-height: 550px){
+	.content{
+		height: 500px;
+	}
+}
